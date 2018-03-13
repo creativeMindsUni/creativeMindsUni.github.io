@@ -764,7 +764,8 @@ a:focus,a:hover {
 .cvitae-skills .progress-bar-container .progress .progress-bar {
     position: relative;
     width: 85%;
-    z-index: 0
+    z-index: 0;
+    background-color:#fff;
 }
 
 .cvitae-skills .progress-bar-container .progress .progress-bar:before {
