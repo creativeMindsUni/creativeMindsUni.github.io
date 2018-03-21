@@ -6157,3 +6157,21 @@ a:focus,a:hover {
 .vision-mission-img{
 	width:100%;
 }
+.cvitae-education .cvitae-section-content .products{
+    margin-top: 20px;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.cvitae-education .cvitae-section-content .products .item{
+    display:table-cell;
+    text-align:center;
+}
+.blank-column {
+    display: table-cell;
+    width: 1.5%;
+}
+.cvitae-education .cvitae-section-content .products .item img{
+    min-height: 210px;
+}
