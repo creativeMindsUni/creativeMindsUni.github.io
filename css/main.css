@@ -6174,6 +6174,7 @@ a:focus,a:hover {
     background-color: #fff;
     border: 1px solid #ddd;
     position: relative;
+    padding: 10px 10px 20px;
 }
  .cvitae-section-content .products .item img{
     width:100%;
@@ -6195,6 +6196,13 @@ a:focus,a:hover {
 #about .cvitae-section-title:before{
     content:none;
 }
+.founders{
+    
+}
+.founders .img-circle{
+    max-width:180px;
+    max-height:180px;
+}
 /*curly underline*/
 
 
@@ -6203,7 +6211,7 @@ a:focus,a:hover {
   width: 200px;
   position: absolute;
   left: 50%;
-  margin-left: -108px;
+  margin-left: -100px;
   top: 50px;
   color: #feb834;
 }
@@ -6296,6 +6304,30 @@ a:focus,a:hover {
 .facebook-link{
     color: #fff;
     background-color: #3b5998;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+ul.social {
+    padding-left: 0;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+ ul.social li {
+    display: inline-block;
+    margin-right: .5em;
+}
+.circle-block img {
+    width: 100%;
+    height: auto;
+    min-height: 180px;
+}
+.circle-block {
+    max-width: 180px;
+    margin: auto;
 }
 
 
