@@ -6332,8 +6332,11 @@ ul.social {
 
 
 @media (max-width: 991px) {
-     .cvitae-section-content .products .cvitae-section-content .products .item{
+     .cvitae-section-content .products, .cvitae-section-content .products .item{
         display:block;
+    }
+    #about .cvitae-section-title{
+        padding-bottom:20px;
     }
      .cvitae-section-content .products .item{
         margin:20px;
