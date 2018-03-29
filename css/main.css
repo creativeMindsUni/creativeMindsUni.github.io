@@ -6330,7 +6330,70 @@ ul.social {
     margin: auto;
 }
 
+/*Sticky notes css*/
+/**{
+  margin:0;
+  padding:0;
+}
+body{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background:#666;
+  color:#fff;
+}*/
+.sticky-notes-container h2,.sticky-notes-container p{
+  font-size:100%;
+  font-weight:normal;
+}
+.sticky-notes-container ul,.sticky-notes-container li{
+  list-style:none;
+}
+.sticky-notes-container ul{
+  overflow:hidden;
+  padding:3em;
+  text-align: center;
+}
+.sticky-notes-container ul li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:10em;
+  width:12em;
+  padding:1em;
+    /* Firefox */
+    -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+    /* Safari+Chrome */
+    -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+    /* Opera */
+    box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+     -moz-transition:-moz-transform .15s linear;
+     -o-transition:-o-transform .15s linear;
+     -webkit-transition:-webkit-transform .15s linear;
+}
+.sticky-notes-container ul li a{
+  -webkit-transform:rotate(-6deg);
+  -o-transform:rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+.sticky-notes-container ul li a:hover,.sticky-notes-container ul li a:focus{
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+      
+  position:relative;
+  z-index:5;
+}
+.sticky-notes-container ul li{
+  margin:2em;
+  float:left;
+}
 
+/*Sticky notes css*/
 @media (max-width: 991px) {
      .cvitae-section-content .products, .cvitae-section-content .products .item{
         display:block;
