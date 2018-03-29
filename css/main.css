@@ -442,7 +442,7 @@ a:focus,a:hover {
 }
 
 .cvitae-menu-wrapper.sticky .cvitae-main-nav ul li.cvitae-home:before {
-    background-color: #000
+    /*background-color: #000*/
 }
 
 .cvitae-menu-wrapper.sticky .cvitae-main-nav ul li.cvitae-home a {
