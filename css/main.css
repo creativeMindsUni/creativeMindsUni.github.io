@@ -6175,6 +6175,13 @@ a:focus,a:hover {
     border: 1px solid #ddd;
     position: relative;
     padding: 10px 10px 20px;
+    webkit-box-shadow: 1px 1px 3px rgba(0,0,0,.7);
+    box-shadow: 2px 2px 4px rgba(0,0,0,.7);
+}
+ .cvitae-section-content .products .item:hover{
+    /* -webkit-transform: scale(1.25); */
+    -moz-transform: scale(1.25);
+    -o-transform: scale(1.25);
 }
  .cvitae-section-content .products .item img{
     width:100%;
