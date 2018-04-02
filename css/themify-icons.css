@@ -913,12 +913,14 @@
 }
 .ti-youtube:before {
 	content: "\e728";
+	color:#ff0000;
 }
 .ti-vimeo:before {
 	content: "\e729";
 }
 .ti-twitter:before {
 	content: "\e72a";
+	color:#55acee;
 }
 .ti-time:before {
 	content: "\e72b";
@@ -952,6 +954,7 @@
 }
 .ti-linkedin:before {
 	content: "\e735";
+	color:#0077B5;
 }
 .ti-layout-sidebar-2:before {
 	content: "\e736";
@@ -982,12 +985,14 @@
 }
 .ti-github:before {
 	content: "\e73f";
+	color:#000;
 }
 .ti-flickr:before {
 	content: "\e740";
 }
 .ti-facebook:before {
 	content: "\e741";
+	color:#3b5999;
 }
 .ti-dropbox:before {
 	content: "\e742";
@@ -1063,6 +1068,7 @@
 }
 .ti-email:before {
 	content: "\e75a";
+	color:#dd4b39;
 }
 .ti-drupal:before {
 	content: "\e75b";
