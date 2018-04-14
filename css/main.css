@@ -6352,6 +6352,8 @@ body{
 .sticky-notes-container h2,.sticky-notes-container p{
   font-size:100%;
   font-weight:normal;
+  word-wrap: break-word;
+  padding:1em;
 }
 .sticky-notes-container ul,.sticky-notes-container li{
   list-style:none;
