@@ -6196,11 +6196,11 @@ a:focus,a:hover {
  .cvitae-section-content .products .item img{
     min-height: 210px;
 }
-#about .cvitae-section-title{
+.cvitae-section-title{
     text-align: center;
     padding-top: 15px;
 }
-#about .cvitae-section-title:before{
+.cvitae-section-title:before{
     content:none;
 }
 .founders{
@@ -6222,7 +6222,9 @@ a:focus,a:hover {
   top: 50px;
   color: #feb834;
 }
-
+#contact #curly-brace{
+    top:125px;
+}
 .brace
 {
   border-bottom: 5px solid;
@@ -6407,7 +6409,7 @@ body{
      .cvitae-section-content .products, .cvitae-section-content .products .item{
         display:block;
     }
-    #about .cvitae-section-title{
+    .cvitae-section-title{
         padding-bottom:20px;
     }
      .cvitae-section-content .products .item{
